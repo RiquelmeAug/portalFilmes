@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap CSS 5.1.3 - 04/2022 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Fontawesome 6.1.1 - 04/2022 -->
+
+    <!-- Fonte do texto -->
+
+    <title>Portal de FIlmes</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Barra de navegação superior -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img class="navbar-brand" src="images/logo_diw.jpeg" alt="logo" height="80" width="80">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link active" aria-current="page" href="#lancamentos">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#destaques">Em destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#entrevistas">Entrevistas & Making of</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- href temporario -->
+                            <a class="nav-link" href="#novidades">Novidades</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bloco de Lançamento -->
+        <div class="container main">
+            <h2 class="lancamentos" id="lancamentos">Lançamentos</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/rt-2cxAiPJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/dnBpZuSUISQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div class="carousel-item">
+                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/rsQEor4y2hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            
+        </div>
+        <!-- Bloco de Destaque -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="destaques" id="destaques">Em destaque</h2>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown" style="text-align: right;">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: TODOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Ficção Científica</a></li>
+                            <li><a class="dropdown-item" href="#">Super Herói</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="images/fight_club.jpg" class="card-img-top" alt="filme1">
+                        <div class="card-body">
+                            <p class="card-text"><b>Fight Club</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="images/interestellar.jpg" class="card-img-top" alt="filme2">
+                        <div class="card-body">
+                            <p class="card-text"><b>Interestellar</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="images/melancholia.jpg" class="card-img-top" alt="filme3">
+                        <div class="card-body">
+                            <p class="card-text"><b>Melancholia</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" widht="100%">
+                        <img src="images/watchmen.jpg" class="card-img-top" alt="filme4">
+                        <div class="card-body">
+                            <p class="card-text"><b>Wacthmen</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Avaliação pelos Usuários -->
+        <div class="container">
+            <h2 class="avaliacoes" id="avaliacoes">Últimas avaliações</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="images/fight_club.jpg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Fight club</h6>
+                                <p><b>Avaliações:</b> 8mi</p>
+                                <p>★★★★☆ - 19/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="images/taxi_driver.jpg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Taxi Driver</h6>
+                                <p><b>Avaliações:</b> 793 mil</p>
+                                <p>★★★★☆ - 19/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="profile-header-container">
+                                    <img class="img-circle" src="images/interestellar.jpg" height="100%" width="100%" />
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h6>Interestellar</h6>
+                                <p><b>Avaliações:</b> 1,7 mi</p>
+                                <p>★★★★☆ -19/04/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais avaliações</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Entrevistas & Making of -->
+        <div class="container">
+            <h2 class="entrevistas" id="entrevistas">Entrevistas & Making of</h2> T0kobbjpdUg
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/T0kobbjpdUg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pegpT5R00DM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Tzv6b5bAAoI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p><b>Filme:</b> Blade Runner 2049.<br>
+                        <b>Diretor:</b> Denis Villeneuve.<br>
+                        <b>Sinopse:</b> A descoberta de um segredo enterrado há muito tempo leva a um jovem a encontrar o antigo corredor de lâminas Rick Deckard, que está desaparecido há trinta anos. <b>Estreia:</b> 2017
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b> Amelie<br>
+                        <b>Diretor:</b> Jean-Pierre Jeunet<br>
+                        <b>Sinopse:</b>Amelie é uma parisiense inocente e ingênua com um senso de autojustificação. Ele decide ajudar as pessoas ao seu redor e encontra amor no processo. <b>Estreia:</b> 1999
+                    </p>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b> Melancholia<br>
+                        <b>Diretor:</b>Lars Von Trier<br>
+                        <b>Sinopse:</b> Duas irmãs encontram sua relação já tensa, desafiada, quando um misterioso novo planeta ameaça colidir com a Terra. <b>Estreia:</b> 2011
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align: right; margin-top: 10px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Entrevistas & Making of -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="novidades" id="novidades">Novidades</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-11 col-md-4">
+                                <img height="60%" width="60%" src="images/Dune.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Dune.
+                                </h5>
+                                <p>2021.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="60%" width="60%" src="images/spider.jpg" alt="imagem1" >
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Spider Man - No Way Home.
+                                </h5>
+                                <p>2022.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px; margin-bottom: 15px;">
+                        <div class="row">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img height="60%" width="60%" src="images/Batman.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Batman.
+                                </h5>
+                                <p>2022.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bloco de Sobre -->
+                <div class="col-4">
+
+                
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="text-center p-3" style="background-color: rgb(0, 0, 0);">
+            <p class="footertext">© 2022 Copyright: Desenvolvimento de Interfaces Web -
+                <b>ICEI PUC MINAS</b>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Javascript 2.10 - 04/2022 -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous"></script>-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

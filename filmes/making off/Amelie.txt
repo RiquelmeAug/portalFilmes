@@ -1,0 +1,6 @@
+filme: Amelie
+diretor: Jean-Pierre Jeunet
+sinopse: Amelie é uma parisiense inocente e ingênua com um senso de autojustificação. Ele decide ajudar as pessoas ao seu redor e encontra amor no processo.
+estreia: 2001
+making of: https://www.youtube.com/watch?v=k5p6B4BmiOw
+avaliação: 8,3/10

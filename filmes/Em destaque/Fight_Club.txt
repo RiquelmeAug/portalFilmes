@@ -1,0 +1,6 @@
+filme: Fight Club
+diretor: David Fincher
+sinopse: Um trabalhador de escritório e um fabricante de sabonetes que cuidam do diabo formam um clube de luta clandestino que evolui para algo muito maior.
+estreia: 1999
+making of: https://www.youtube.com/watch?v=k5p6B4BmiOw
+avaliação: 8,8/10

@@ -1,0 +1,6 @@
+filme: Dune
+diretor: Denis Villeneuve
+sinopse: Adaptação do romance de ficção científica de Frank Herbert, sobre o filho de uma família nobre encarregada de proteger um planeta temperado.
+estreia: 2021
+avaliação: 8,1/10
+elenco: Timothée Chalamet, Rebecca Ferguson, Zendaya.

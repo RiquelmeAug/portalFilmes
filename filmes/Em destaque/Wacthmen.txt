@@ -1,0 +1,6 @@
+filme: Watchmen
+diretor: Zack Snyder
+sinopse: O assassinato de um colega envia um vigilante a fazer uma investigação, descobrindo algo que poderia mudar completamente o curso da história como a conhecemos.
+estreia: 2009
+making of: https://www.youtube.com/watch?v=vRYaMY1RHxU
+avaliação: 7,6/10

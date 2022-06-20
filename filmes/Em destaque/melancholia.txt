@@ -1,0 +1,6 @@
+filme: Melancholia
+diretor: Lars Von Trier
+sinopse: Duas irmãs encontram sua relação já tensa, desafiada, quando um misterioso novo planeta ameaça colidir com a Terra.
+estreia: 2011
+making of: https://www.youtube.com/watch?v=Tzv6b5bAAoI
+avaliação: 7/10

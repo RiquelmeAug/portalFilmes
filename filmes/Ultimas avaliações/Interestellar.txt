@@ -1,0 +1,6 @@
+filme: Interestelar
+diretor: Christopher Nolan
+sinopse: Uma equipe de exploradores viaja através de um buraco de minhoca no espaço, na tentativa de garantir a sobrevivência da humanidade.
+estreia: 2014
+making of: https://www.youtube.com/watch?v=tjsUt6YW9go
+avaliação: 8,6/10

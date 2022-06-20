@@ -1,0 +1,5 @@
+filme: Blade Runner 2049
+diretor: Denis Villeneuve
+sinopse: A descoberta de um segredo enterrado há muito tempo leva a um jovem a encontrar o antigo corredor de lâminas Rick Deckard, que está desaparecido há trinta anos.
+estreia: 2017
+avaliação: 8/10

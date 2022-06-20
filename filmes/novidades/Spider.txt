@@ -1,0 +1,6 @@
+filme: Spider Man - No Way Home
+diretor: Jon Watts
+sinopse: Com a identidade do Homem-Aranha revelada, Peter pede ajuda ao Doutor Strange. Quando um feitiço corre mal, inimigos perigosos de outros mundos começam a aparecer, forçando Peter a descobrir o que realmente significa ser o Homem-Aranha.
+estreia: 2022
+avaliação: 8,4/10
+elenco: Tom Holland, Zendaya, Benedict Cumberbatch.
