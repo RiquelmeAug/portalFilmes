@@ -3,11 +3,11 @@
 }
 
 html {
-  background: #292121;
+  background: #1c1531;
 }
 
 main {
-  background: #292121;
+  background: #1c1531;
 }
 
 h2 {
@@ -56,6 +56,7 @@ img.navbar-brand {
 }
 
 .container {
+  height: 780px;
   text-align: justify;
 }
 
@@ -124,5 +125,32 @@ img.img-circle {
 .footertext {
   margin-top: 15px;
   align-self: center;
-  color: #ffffff;
+  color: #858585;
+}
+
+.dinamicList img {
+  margin-top: 10px;
+  color: #fff;
+  width: 30%;
+  height: 15%;
+}
+
+.dinamicList .titulo {
+  float: left;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.dinamicList .sinopse {
+  font-weight: 700;
+}
+
+/*.dinamicList .vote {
+}
+
+.dinamicList .lancamento {
+}*/
+
+#pacoca {
+  color: #fff;
 }
